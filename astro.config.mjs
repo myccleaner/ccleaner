@@ -6,7 +6,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'Peacock TV Account Login',
+			title: 'CCleaner Login Account | CCleaner Login My Account',
 
 			head: [
 				{
@@ -27,10 +27,10 @@ export default defineConfig({
 
 			sidebar: [
 				{
-					label: 'Peacock TV Account Login',
+					label: 'CCleaner Login Account',
 					items: [
 						{
-							label: 'Peacock TV Account Login',
+							label: 'CCleaner Login Account',
 							slug: 'index',
 						},
 					],
